@@ -2,14 +2,14 @@ body {
     /* Centralizar textos */
     text-align: center;
     /* Inserir imagem de fundo */
-    background-image: url(https://bit.ly/3g7ht7X);
+    background-image: url(https://cdn.pixabay.com/photo/2017/08/12/15/26/fantasy-2634566_960_720.jpg);
     background-repeat:no-repeat;
     /* Posicionamento */
     background-position: center;
     /* Altura do body */
     height: 100vh;
     /* Tamanho da imagem */
-    background-size: 500px;
+    background-size: cover;
     /* Fixar a imagem de fundo */
     background-attachment: fixed;
     /* Cor de fundo */
@@ -20,20 +20,24 @@ body {
 h1{
     color: #da0a0a;
     font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 50px;
 }
 
 /* Personalizar os subtítulos */
 #green {
-    color: #0d770d;
+    color: #9ce02d;
     font-style: italic;
 }
 
 #blue {
-    color: #1421d6;
+    color: #2febbc;
     font-weight: bold;
+    font-style: italic;
 }
 
 .colors {
-    color: #58dac4;
-    font-size: 24px;                                                         
+    color: #800080;
+    font-size: 36px; 
+    text-decoration: underline;                                                    
 }
